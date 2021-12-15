@@ -6,11 +6,14 @@
     <title>Three.js Realistic Rain Tutorial by Red Stapler</title>
   </head>
   <body>
-    <audio controls autoplay>
-      <source src="./deepthunder.wav">
-      
-    Your browser does not support the audio element.
-  </audio>
+   
+  <audio
+        controls
+        src="/deepthunder.wav" autoplay=true loop=true>
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+    
     <script src="three.min.js"></script>
     <script>
     let scene,camera, renderer, cloudParticles = [], flash, rain, rainGeo, rainCount = 15000;
