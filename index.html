@@ -3,10 +3,14 @@
   <head>
     <meta charset=UTF-8 />
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>Three.js Realistic Rain and Thunder</title>
+    <title>Three.js Realistic Rain Tutorial by Red Stapler</title>
   </head>
   <body>
-    
+    <audio controls autoplay>
+      <source src="deepthunder.wav" type="audio/wav">
+      
+    Your browser does not support the audio element.
+  </audio>
     <script src="three.min.js"></script>
     <script>
     let scene,camera, renderer, cloudParticles = [], flash, rain, rainGeo, rainCount = 15000;
@@ -108,11 +112,6 @@
     }
     init();
     </script>
-    <audio
-    controls="none" 
-    src="deepthunder.wav" autoplay=true loop=true></audio>
-        Your browser does not support the
-        <code>audio</code> element.
-</audio>
+    
   </body>
 </html>
