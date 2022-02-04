@@ -3,9 +3,12 @@
   <head>
     <meta charset=UTF-8 />
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>Three.js Realistic Rain Tutorial</title>
+    <title>Three.js Realistic Rain</title>
   </head>
   <body>
+   
+  
+    
     <script src="three.min.js"></script>
     <script>
     let scene,camera, renderer, cloudParticles = [], flash, rain, rainGeo, rainCount = 15000;
@@ -106,14 +109,11 @@
       requestAnimationFrame(animate);
     }
     init();
-
-    
     </script>
-
-     <audio src="deepthunder.wav"></audio>
-    <button id="button">
-      <i class="fas fa-volume-up"></i>
-    </button> 
-    <script src="app.js"></script>
+    
+    <audio controls src="/deepthunder.wav" autoplay=true loop=true style="z-index:3">
+      Your browser does not support the
+      <code>audio</code> element.
+</audio>
   </body>
 </html>
